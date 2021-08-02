@@ -91,7 +91,7 @@ body {
   letter-spacing: 1px;
 }
 
-.pricing-features{
+.pricing-features {
   margin: 50px 0 25px;
   color: #016ff9;
 }
@@ -105,7 +105,7 @@ body {
   border-top: 1px solid #e1f1ff;
 }
 
-.pricing-features-item:last-child{
+.pricing-features-item:last-child {
   border-bottom: 1px solid #e1f1ff;
 }
 
@@ -141,8 +141,8 @@ body {
     color: white;
 }
 
-@media (min-width:900px){
-  .panel{
+@media (min-width:900px) {
+  .panel {
     flex-direction: row;
   }
   .pricing-plan {
