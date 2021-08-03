@@ -14,13 +14,30 @@
 <body>
     <div class="container">
         <h1 class="display-1 text-center text-primary">Bootstrap Playground</h1>
-        <h2 class="display-4">Buttons</h2>
+        <h2 class="display-4">Buttons <span class="badge badge-success badge-pill">New</span></h2>
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-success">success</button>
         <button type="button" class="btn btn-info">info</button>
         <button class="btn btn-outline-warning">warning outline</button>
         <button class="btn btn-outline-info btn-lg">info outline</button>
         <button class="btn btn-secondary btn-sm">small button</button>
+        <button type="button" class="btn btn-success" disabled>button disabled</button>
+        <button class="btn btn-primary">Updates <span class="badge badge-light">9</span></button>
+        <h3>Buttons Groups</h3>
+        <div class="btn-group">
+            <button class="btn btn-success">One</button>
+            <button class="btn btn-warning">Two</button>
+            <button class="btn btn-danger">Three</button>
+        </div>
+
+        <h3>Alerts</h3>
+        <div class="alert alert-success alert-dismissible fade show" role="alert ">
+            <h4 class="alert-heading">Well done!</h4>
+            You are about to end the world as we know it!
+            <button aria-label="Close" class="close" data-dismiss="alert">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
 
         <h2 class="display-4">Typography</h2>
 
